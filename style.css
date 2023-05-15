@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color: blueviolet;
+    height: 100%;}
+
+
+.informatio{
+    position: absolute;
+    left: 40px;
+    top: 30px;
+}
+.informatio h1{
+    color: white;
+    text-transform: capitalize;
+}
+.informatio #buttons{
+    margin-top: 20px;
+    padding: 10px 20px;
+    outline: 0;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 4px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.informatio #buttons i{
+    margin-right: 10px;
+}
+.informatio #buttons:hover{
+    background-color: #fff;
+    color: #222;
+    transition: background 1s;
+}
+.informatio textarea{
+    margin-top: 40px;
+    width: 400px;
+    height: 200px;
+    outline: 0;
+    border: 0;
+    resize: none;
+    padding: 10px;
+    border-radius: 4px;
+    max-width: 500px;
+}
+.saveButton{
+position: relative;
+top: 30px;
+left: -400px;
+width: 120px;
+height: 30px;
+outline: 0;
+border: 0;
+cursor: pointer;
+border-radius: 4px;
+text-transform: uppercase;
+background-color:#fff;
+color: #222;
+}
+.informatio h1 i{
+    margin-right: 10px;
+}
+@media(max-width:400px){
+   .informatio textarea{
+    width: 200px;
+    height: 150px;
+    } 
+    .informatio{
+        position: absolute;
+        top: 10px;
+        left: 0px;
+    }
+}
+@media(max-width:500px){
+    .informatio textarea{
+    width: 300px;
+    height: 180px;
+    }
+    .informatio{
+        position: absolute;
+        top: 10px;
+        left: 15px;
+    }
+    .saveButton{
+        position: relative;
+        left: 0;
+        top: 10px;
+    }
+}
+@media(max-width:317px){
+    .informatio textarea{
+        width: 250px;
+    }
+}
